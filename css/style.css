@@ -1,0 +1,41 @@
+/* start variable */
+:root{
+    --main-color:#FA812F;
+    --second-color:#FAB12F;
+    --section-background:#FA4032;
+    --section-padding:60px;
+    --main-duration:0.5s;
+}
+/* end variable */
+/* Start Global Rules */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto Slab;
+}
+.contaner{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media(min-width:768px){
+    .contaner{
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+  .contaner {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .contaner {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
